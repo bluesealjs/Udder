@@ -26,5 +26,8 @@ class ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         //
     }
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        //
+    }
 }
 
